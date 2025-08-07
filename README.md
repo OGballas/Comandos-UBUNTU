@@ -20,7 +20,7 @@ $USER é uma variável de ambiente que referencia o valor do usuário que está 
 **sudo ./VBoxLinuxAdditions.run**
 Executa a aplicação disponível no diretório que acessou e instala os recursos
 
-**lsmod | grep vbox lsmod:**
+**lsmod | grep vbox:**
 Lista módulos carregados no Kernel
 grep: funciona como um filtro para pesquisar apenas as linhas que contenham o texto que deseja pesquisar (nesse caso, vbox)
 vbox: prefixo que inicia normalmente os nomes dos módulos do VirtualBox
