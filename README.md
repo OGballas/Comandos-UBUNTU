@@ -24,3 +24,17 @@ Executa a aplicação disponível no diretório que acessou e instala os recurso
 Lista módulos carregados no Kernel
 grep: funciona como um filtro para pesquisar apenas as linhas que contenham o texto que deseja pesquisar (nesse caso, vbox)
 vbox: prefixo que inicia normalmente os nomes dos módulos do VirtualBox
+
+# comandos 11/08/2025
+- **sudo groupadd** criar grupo
+- **sudo mkdir home** para criar um novo diretorio
+- **sudo chown** :nome_do_grupo nome_da_pasta mudar proprietário
+- **sudo chmod** Altera permisão
+- **Explição DRWX** Diretorio Read Write eXecute| DRWX
+- Adicionar um usuário a um grupo no SO
+  - **sudo addgroup** nome_do_grupo
+- **sudo addgroup $USER nome_do_grupo** (Ubuntu/Debian desktop)
+- Para adicionar um usuário a vários grupos de uma vez só
+- **sudo usermod -aG** nome_do_grupo1 nome_do_grupo2 $USER
+
+
